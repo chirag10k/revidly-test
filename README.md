@@ -1,6 +1,15 @@
 # revidlytest
 
-A new Flutter application.
+<img src="revidly-test.gif" height="400em" />
+
+Since your API SSL security certificate was expired earlier only so I have used two random images 
+from the internet for the posts but the rest of the api data is from the given JSON API.
+I have commented the code to display fetched images from the API at the same place where I have 
+mentioned the url for the actually used images in common/widgets/post_card_widget.dart .
+I had also mentioned this issue on Internshala chat earlier too.
+
+I have used SQFLITE to store the data locally and displayed it when the device is offline. The app 
+architecture is based on models, screens, common widgets and services using provider package. 
 
 ## Getting Started
 
